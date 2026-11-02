@@ -7,10 +7,10 @@ import { Link } from 'react-router-dom'
 function Projects() {
   return (
     <div className='pt-20 pb-20 bg-pink-100'>
-      <div className='grid grid-cols-2'>
+      <div className='grid '>
         <div className='m-5'>
-      <p className='text-5xl font-redaction'>Projects</p>
-      <p className='pt-3 text-xl'>Practice and Portfolio builds spanning full-stack,backend and frontend work used to learn and demonstrate real development skills</p>
+      <p className='text-5xl font-redaction text-start'>Projects</p>
+      <p className='pt-3 text-xl text-start'>Practice and Portfolio builds spanning full-stack,backend and frontend work used to learn and demonstrate real development skills</p>
         </div>
       </div>
       <div className='grid lg:grid-cols-3 md:grid-cols-2 '>

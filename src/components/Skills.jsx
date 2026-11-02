@@ -15,16 +15,15 @@ function Skills() {
         <div className='ps-8 grid lg:grid-cols-2 md:grid-cols-2'>
           <div>
           <p className='text-start text-s text-red-800'>ToolBox</p>
-         <p className='text-7xl mt-3 pt-4 font-redaction'>Skills & Technologies</p>
-          <p className='pt-4'>Illustrative skill levels built through consistent practice, coursework and hands-on projects-not formal certifications</p>
+         <p className='text-5xl sm:p-2 mt-3 pt-4 font-redaction text-start'>Skills & Technologies</p>
+          <p className='pt-4 lg:text-xl text-start'>Illustrative skill levels built through consistent practice, coursework and hands-on projects-not formal certifications</p>
           </div>
-          
         </div>
         <div className='pt-10 border-b pb-10'>
           <p className='ms-6 text-4xl font-redaction pb-10'>Frontend</p>
-          <div className='grid lg:grid-cols-4 md:grid:cols-2 sm:grid-cols-3 sm:justify-items-center'>
-            <div className=' border rounded-2xl m-5 p-5 bg-white '  data-aos="fade-up">
-              <div>
+          <div className='grid lg:grid-cols-4 md:grid:cols-2 sm:grid-cols-3 '>
+            <div className=' border rounded-2xl m-5 p-5 bg-white' data-aos="fade-up">
+              <div >
               <p className=' text-xl font-redaction'>HTML5</p>
               <p className='font-philo text-lg'>Frontend</p>
               </div>
