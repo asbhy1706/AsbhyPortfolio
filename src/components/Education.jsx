@@ -87,10 +87,10 @@ function Education() {
                     <p className='border rounded-xl text-center bg-pink-100'>JavaScript</p>
                     <p className='border rounded-xl text-center bg-pink-100 '>Bootstrap</p>
                     <p className='border rounded-xl text-center bg-pink-100'>React.js</p>
-                    <p className='border rounded-xl text-center bg-pink-100'>Git</p>
-                    <p className='border rounded-xl text-center bg-pink-100'>GitHub</p>
-                    <p className='border rounded-xl text-center bg-pink-100'>Responsive Web Development</p>
-                    <p className='border rounded-xl text-center bg-pink-100'>Project Development</p>
+                    <p className='border rounded-xl text-center bg-pink-100 lg:pt-3'>Git</p>
+                    <p className='border rounded-xl text-center bg-pink-100 lg:pt-3'>GitHub</p>
+                    <p className='border rounded-xl text-center bg-pink-100  '>Responsive Web Development</p>
+                    <p className='border rounded-xl text-center bg-pink-100 lg:pt-3 '>Project Development</p>
                 </div>
         </div>
       </div>

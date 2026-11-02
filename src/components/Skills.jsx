@@ -22,7 +22,7 @@ function Skills() {
         </div>
         <div className='pt-10 border-b pb-10'>
           <p className='ms-6 text-4xl font-redaction pb-10'>Frontend</p>
-          <div className='grid lg:grid-cols-4 md:grid:cols-2 sm:grid-cols-3'>
+          <div className='grid lg:grid-cols-4 md:grid:cols-2 sm:grid-cols-3 sm:justify-items-center'>
             <div className=' border rounded-2xl m-5 p-5 bg-white '  data-aos="fade-up">
               <div>
               <p className=' text-xl font-redaction'>HTML5</p>

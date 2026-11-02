@@ -1,6 +1,8 @@
 import React from 'react'
 import project1 from '/project1.png'
 import project2 from '/portfolio.png'
+import project3 from '/project3.png'
+import { Link } from 'react-router-dom'
 
 function Projects() {
   return (
@@ -19,7 +21,7 @@ function Projects() {
            <div className='p-5'>
               <p className='text-center font-redaction text-2xl'>Mini E-Commerce Website</p>
               <p className='pt-2'>Mini E-Commerce Cake Website using React JS, React Router, JSON Server, and React Bootstrap! </p>
-              
+              <p className='text-center'><a className='underline hover:text-blue-600 dark:hover:text-blue-400' href='https://lnkd.in/p/gwqR-YXn'>Check Out My Work</a></p>
            </div>
         </div>
         <div className='border m-5 rounded-3xl bg-white hover:scale-90'>
@@ -31,16 +33,14 @@ function Projects() {
               <p className='pt-2'> Built my personal portfolio website using React JS, Tailwind CSS, Animations, and React Router!</p>
            </div>
         </div>
-        <div>
-          <div>
-            
+        <div className='border m-5 rounded-3xl bg-white hover:scale-90'>
+          <div className='border-b'>
+            <img src={project3} className=' rounded-t-3xl'/>
            </div>
-           <div>
-              <p></p>
-              <p></p>
-              <div>
-                
-              </div>
+           <div  className='p-5'>
+              <p  className='text-center font-redaction text-2xl'>Jwellery Website</p>
+              <p className='pt-2'> Created a Dark Fashion Jewellery Shop Website Template from scratch using HTML & CSS. </p>
+              <p className='text-center'><a className='underline hover:text-blue-600 dark:hover:text-blue-400' href='https://lnkd.in/p/gxDqmbaX'>Check Out My Work</a></p>
            </div>
         </div>
       </div>

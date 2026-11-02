@@ -38,7 +38,7 @@ function About() {
     <div className='mt-10'>
         <p className='text-center text-xl text-red-800 font-philo'>Details</p>
         <p className='text-6xl text-center font-redaction'>Personal Information</p>
-        <div className='m-15 grid lg:grid-cols-4 md:grid-cols-2 lg:gap-6 sm:justify-content-center sm:items-center ' >
+        <div className='m-15 grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 lg:gap-6 justify-items-center  ' >
         <div className='text-center border w-60 rounded-2xl lg:p-3 md:p-4 sm:p-2  mt-6 scale-100 hover:scale-90 hover:bg-pink-100 ' data-aos="fade-down">
             <p className='text-xs text-red-800 font-redaction '>NAME</p>
             <p className='text-xl pt-2 font-redaction'>ASBHY</p>
@@ -73,7 +73,7 @@ function About() {
         </div>
       </div>
     </div>
-    <div className=' grid lg:grid-cols-2 md:grid-cols-2 ps-5 bg-pink-100 '>
+    <div className=' grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 ps-5 bg-pink-100 '>
         <div>
           <p className='text-xl text-red-800 font-philo'>The Path So Far</p>
           <p className='text-5xl mt-3 font-redaction'>MY JOURNEY</p>

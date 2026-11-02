@@ -11,27 +11,33 @@ function Contact() {
         <div className='pt-5 text-center lg:ms-50 lg:me-50 md:ms-10 md:me-10 sm:ms-5 sm:me-5'>
         <p>I'm currently looking for opportunities where I can contribute, learn and grow as a Python Full Stack Developer. Feel free to contact me regarding internships, junior developer roles. freelance projects or collaborations.</p>
         </div>
-        <div className=' grid lg:grid-cols-4 md:grid-cols-4 sm:items-center sm:justify-content-center m-5'>
+        <div  className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 md:grid-cols-2 md:gap-3 lg:gap-3 m-5 justify-items-center'>
           <div className='text-center m-5 '>
-            <div className='border rounded w-60 3xl p-2 bg-pink-100'>
+            <div className='border rounded w-60 3xl p-2 bg-pink-100 sm:items-center sm:justify-center'>
             <FontAwesomeIcon icon={faGithub} size='2x' />
-            <p className='pt-5'>GitHub</p>
+            <p className='pt-5'><a href='https://github.com/asbhy1706'>GitHub</a></p>
             </div>
           </div>
           <div className='text-center m-5 '> 
-            <div className='border rounded w-60 3xl p-2 bg-pink-100'>
+            <div className='border rounded w-60 3xl p-2 bg-pink-100 sm:items-center sm:justify-center'>
                <FontAwesomeIcon icon={faLinkedin} size='2x' />
                <p className='pt-5'> <a href='https://www.linkedin.com/in/asbhy-vinoba-va1706/'>LinkedIn</a></p>
             </div>
           </div>
           <div className='text-center m-5 '>
-            <div className='border rounded w-60 3xl p-2 bg-pink-100'>
+            <div className='border rounded w-60 3xl p-2 bg-pink-100 sm:items-center sm:justify-center'>
             <FontAwesomeIcon icon={faEnvelope} size='2x' />
-            <p className='pt-5'><a href='mailto:asbhyva317@gmail.com' >Mail</a></p>
+            <p className='pt-5'> <a
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=asbhyva317@gmail.com&su=Job%20Opportunity"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Mail
+</a></p>
             </div>
           </div>
           <div className='text-center w-60 m-5 '>
-            <div className='border rounded 3xl p-2 bg-pink-100 '>
+            <div className='border rounded 3xl p-2 bg-pink-100 sm:items-center sm:justify-center '>
             <FontAwesomeIcon icon={faPhone}  size='2x'/>
             <p className='pt-5'>+91 8489323863</p>
             </div>

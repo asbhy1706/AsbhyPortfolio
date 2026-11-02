@@ -18,7 +18,13 @@ function Resume() {
                 <p className='text-4xl font-redaction'>Profile</p>
                 <p className='pt-2'>ASBHY-Python Full Stack Developer. I'm a passionate Python Full Stack Developer focused on building modern, responsive and scalable web applications. I'm currently enhancing my development skills through professional Python Full Stack training at JClick Solutions.</p>
                 <div className='grid lg:grid-cols-3 md:grid-cols-2  mt-3 mb-3'>
-                    <p>asbhyva317@gmail.com</p>
+                    <p><a
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=asbhyva317@gmail.com&su=Job%20Opportunity"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+ asbhyva317@gmail.com
+</a></p>
                     <p className='sm:pt-3'>+91 8489323863</p>
                     <p className='sm:pt-3 md:pt-3'>India</p>
                 </div>

@@ -19,14 +19,14 @@ function Footer() {
                     </div>
                     <div>
                         <p className=' text-white'><Link to="/about">About</Link></p>
-                        <p className=' pt-1 text-white'><Link to="/projects">Projects</Link></p>
+                        <p className=' pt-1 text-white'><Link to="/project">Projects</Link></p>
                         <p className=' pt-1 text-white'><Link to="/contact">Contact</Link></p>
                     </div>
                 </div>
              </div>
              <div className='m-5'>
                 <p className='font-redaction text-white text-2xl pb-3'>Get in Touch</p>
-                <p className='  text-white'>asbhyva317@gmail.com</p>
+                  <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=asbhyva317@gmail.com&su=Job%20Opportunity" target="_blank" rel="noopener noreferrer" className='text-white'>asbhyva317@gmail.com</a></p>
                 <p className=' pt-1 text-white'>+91 8489323863</p>
                 <p className=' pt-1 text-white'>India.Open to Oppurtunities</p>
              </div>
