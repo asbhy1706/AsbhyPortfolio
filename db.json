@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "name": "NANNSNS",
+      "age": "13",
+      "id": "ou_FKdbFMC8"
+    },
+    {
+      "name": "Asbhy",
+      "age": "22",
+      "id": "Y9GrXKOoCg0"
+    },
+    {
+      "name": "abshabchfsdnvgutiujhtijt",
+      "age": "32",
+      "id": "ATmfWjJsO6c"
+    },
+    {
+      "name": "we",
+      "age": "4",
+      "id": "-GT1npw-dVc"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

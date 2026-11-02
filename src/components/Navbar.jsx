@@ -1,0 +1,50 @@
+import React from 'react'
+import {BrowserRouter as Router,Routes,Route,Link} from 'react-router-dom'
+
+function Navbar1() {
+  return (
+<nav className=" fixed w-full z-20 top-0 start-0 border-default bg-pink-50">
+  <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
+        <span className="self-center text-2xl text-heading font-semibold whitespace-nowrap">ASBHY</span>
+    </a>
+    <button data-collapse-toggle="navbar-dropdown" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-dropdown" aria-expanded="false">
+        <span className="sr-only">Open main menu</span>
+        <svg className="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
+    </button>
+    <div className="bg-pink-50 hidden w-full md:block md:w-auto" id="navbar-dropdown ">
+      <ul className=" bg-pink-50 flex flex-col font-medium p-4 md:p-0 mt-4 border border-default rounded-base  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
+        <li>
+          <Link to="/" className="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Home</Link>
+        </li>
+        <li>
+          <Link to='/about'className="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">About</Link>
+        </li>
+        <li>
+          <Link to='/education' className="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Education</Link>
+        </li>
+        <li>
+          <Link to='/skills' className="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Skills</Link>
+        </li>
+        <li>
+          <Link to="/project" className="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Projects</Link>
+        </li>
+        <li>
+          <Link to='/resume' className="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Resume</Link>
+        </li>
+        <li>
+          <Link to='/contact' className="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Contact</Link>
+        </li>
+        <li>
+          <button className='rounded-lg border-1 p-2 border-solid bg-red-800 text-white hover:bg-white hover:text-red-800 focus:outline-2 focus:outline-offset-2 focus:outline-red-800 active:bg-white '>Hire Me</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+ 
+
+  )
+}
+
+export default Navbar1
