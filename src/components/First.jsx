@@ -23,7 +23,7 @@ function First() {
           <p data-aos="fade-right"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine" className='text-3xl mt-3 text-red-800 font-redaction'>Python Full Stack Developer</p>
-          <p className='mt-5'>I am passionate Python Full Stack Developer focused on building modern,expressive and scalable web applications.I'm currently enhancing my development skills through Professional python Full Stack Training at JClicks Solutions.</p>
+          <p className='mt-5'>I am passionate Python Full Stack Developer focused on building modern,expressive and scalable web applications.I'm currently enhancing my development skills through Professional python Full Stack Training at JClick Solutions.</p>
           <div className=' mt-7 mb-5 flex justify-around '>
             <button className=' lg:w-1/3 rounded-3xl border-1 p-2  border-solid bg-red-800 text-white hover:bg-white hover:text-red-800 focus:outline-2 focus:outline-offset-2 focus:outline-red-800 active:bg-white '><Link to='/project'>View My Work</Link></button>
             <button className=' lg:w-1/3  rounded-3xl border-1 p-2  border-solid bg-red-800 text-white hover:bg-white hover:text-red-800 focus:outline-2 focus:outline-offset-2 focus:outline-red-800 active:bg-white '><a 

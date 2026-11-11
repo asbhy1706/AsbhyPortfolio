@@ -16,7 +16,7 @@ function Skills() {
           <div>
           <p className='text-start text-s text-red-800'>ToolBox</p>
          <p className='text-5xl sm:p-2 mt-3 pt-4 font-redaction text-start'>Skills & Technologies</p>
-          <p className='pt-4 lg:text-xl text-start'>Illustrative skill levels built through consistent practice, coursework and hands-on projects-not formal certifications</p>
+          <p className='pt-4 lg:text-xl text-start'>Illustrative skill levels built through consistent practice, coursework and hands-on projects not formal certifications</p>
           </div>
         </div>
         <div className='pt-10 border-b pb-10'>
