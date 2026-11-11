@@ -74,7 +74,7 @@ function Education() {
             <div className='grid grid-cols-2 gap-2'>
                 <div>
                 <p className='font-redaction text-3xl'>Python Full Stack Development</p>
-                <p className='text-xl text-red-800 pt-1'>JClicks Solutions</p>
+                <p className='text-xl text-red-800 pt-1'>JClick Solutions</p>
                 </div>
                 <div >
                     <button className='rounded-lg border-1 p-2 border-solid bg-red-800 text-white hover:bg-white hover:text-red-800 focus:outline-2 focus:outline-offset-2 focus:outline-red-800 active:bg-white '>Currently Pursuing</button>

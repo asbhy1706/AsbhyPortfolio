@@ -16,7 +16,7 @@ function Resume() {
         <div className='border rounded-xl p-10 m-10 bg-white'>
             <div className='m-2 border-b-1'>
                 <p className='text-4xl font-redaction'>Profile</p>
-                <p className='pt-2'>ASBHY-Python Full Stack Developer. I'm a passionate Python Full Stack Developer focused on building modern, responsive and scalable web applications. I'm currently enhancing my development skills through professional Python Full Stack training at JClick Solutions.</p>
+                <p className='pt-2'><span className='text-xl'>ASBHY</span>-Python Full Stack Developer. I'm a passionate Python Full Stack Developer focused on building modern, responsive and scalable web applications. I'm currently enhancing my development skills through professional Python Full Stack training at JClick Solutions.</p>
                 <div className='grid lg:grid-cols-3 md:grid-cols-2  mt-3 mb-3'>
                     <p><a
   href="https://mail.google.com/mail/?view=cm&fs=1&to=asbhyva317@gmail.com&su=Job%20Opportunity"
@@ -41,7 +41,7 @@ function Resume() {
                        <p className='text-xl font-redaction'>B.E. Electronics and Communication Engineering  </p>
                        <p>Amrita College of Engineering and Technology</p>
                     </div>
-                    <div>
+                    <div className='pt-3'>
                       <p>(2020-2024)</p>
                     </div>
                   </div>
@@ -50,7 +50,7 @@ function Resume() {
                      <p className='text-xl font-redaction'>Higher Secondary Education (HSC)</p>
                      <p>S.M Matric Higher Secondary School</p>
                      </div>
-                     <div>
+                     <div className='pt-3'>
                         <p>2020</p>
                      </div>
                   </div>
@@ -59,7 +59,7 @@ function Resume() {
                     <p className='text-xl font-redaction'>Secondary School Education(SSLC)</p>
                     <p>S.M Matric Higher Secondary School</p>
                     </div>
-                    <div>
+                    <div className='pt-3'>
                        <p>2018</p> 
                     </div>
                  </div>
@@ -68,7 +68,7 @@ function Resume() {
             <div className='pt-10 pb-10 border-b-1'>
                 <p className='text-4xl font-redaction'>Training</p>
                 <p className='pt-3 text-xl font-redaction'>Python Full Stack Development</p>
-                <p className='text-red-800'>JClicks Solutions - Currently pursuing</p>
+                <p className='text-red-800'>JClick Solutions - Currently pursuing</p>
             </div>
             <div className='pt-10 pb-10 border-b-1'>
                 <p className='text-4xl font-redaction'>Projects</p>
@@ -88,7 +88,7 @@ function Resume() {
                 </div>
             </div>
             <div className='pt-10 pb-10'>
-                <p className='text-3xl pb-3'>Contact Details</p>
+                <p className='text-4xl pb-3 font-redaction'>Contact Details</p>
                 <div className='grid lg:grid-cols-3 md:grid-cols-2 '>
                     <p>asbhyva317@gmail.com</p>
                     <p className='sm:pt-3'>+91 8489323863</p>
